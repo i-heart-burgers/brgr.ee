@@ -133,6 +133,11 @@
                 {
                     infowindows[this.infoWindowIndex].open(map, this);
                 });
+                google.maps.event.addListener(markers[i], 'mousedown',
+                function(event)
+                {
+                    infowindows[this.infoWindowIndex].open(map, this);
+                });
                 google.maps.event.addListener(markers[i], 'mouseout',
                 function(event)
                 {
