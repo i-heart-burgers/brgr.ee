@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>I &#10084; Burgers</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <style>
+            @import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+            #map {
+                background-color: #000;
+                height: 100%;
+            }
+            /* Optional: Makes the sample page fill the window. */
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            h1{
+                font-family: 'Advent Pro', sans-serif;
+                font-size: 2em;
+                color: rgba(255,0,0,1);
+                Position: absolute;
+                top : 1em;
+                left : 2em;
+                z-index: 9999;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>I &#10084; Burgers</h1>
+        <div id="map"></div>
+        <script>
+        var burgers = [
+
+        ];
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: 59.437, lng: 24.7536 },
+                zoom: 12,
+                mapTypeControl: false,
+                streetViewControl: false,
+                styles:[
+                    {                                                 "elementType" : "geometry"           , "stylers" : [ { "color"      : "#f5f5f5" } ] },
+                    {                                                 "elementType" : "labels.icon"        , "stylers" : [ { "visibility" : "off"     } ] },
+                    {                                                 "elementType" : "labels.text.fill"   , "stylers" : [ { "color"      : "#616161" } ] },
+                    {                                                 "elementType" : "labels.text.stroke" , "stylers" : [ { "color"      : "#f5f5f5" } ] },
+                    { "featureType" : "administrative.land_parcel"  , "elementType" : "labels"             , "stylers" : [ { "visibility" : "off"     } ] },
+                    { "featureType" : "administrative.land_parcel"  , "elementType" : "labels.text.fill"   , "stylers" : [ { "color"      : "#bdbdbd" } ] },
+                    { "featureType" : "administrative.neighborhood"                                        , "stylers" : [ { "visibility" : "off"     } ] },
+                    { "featureType" : "administrative.neighborhood" , "elementType" : "geometry.fill"      , "stylers" : [ { "weight"     : 1         } ] },
+                    { "featureType" : "administrative.province"                                            , "stylers" : [ { "visibility" : "off"     } ] },
+                    { "featureType" : "poi"                         , "elementType" : "geometry"           , "stylers" : [ { "color"      : "#eeeeee" } ] },
+                    { "featureType" : "poi"                         , "elementType" : "labels.text"        , "stylers" : [ { "visibility" : "off"     } ] },
+                    { "featureType" : "poi"                         , "elementType" : "labels.text.fill"   , "stylers" : [ { "color"      : "#757575" } ] },
+                    { "featureType" : "poi.business"                                                       , "stylers" : [ { "visibility" : "off"     } ] },
+                    { "featureType" : "poi.park"                    , "elementType" : "geometry"           , "stylers" : [ { "color"      : "#e5e5e5" } ] },
+                    { "featureType" : "poi.park"                    , "elementType" : "labels.text.fill"   , "stylers" : [ { "color"      : "#9e9e9e" } ] },
+                    { "featureType" : "road"                        , "elementType" : "geometry"           , "stylers" : [ { "color"      : "#ffffff" } ] },
+                    { "featureType" : "road"                        , "elementType" : "labels.icon"        , "stylers" : [ { "visibility" : "off"     } ] },
+                    { "featureType" : "road.arterial"               , "elementType" : "labels.text.fill"   , "stylers" : [ { "color"      : "#757575" } ] },
+                    { "featureType" : "road.highway"                , "elementType" : "geometry"           , "stylers" : [ { "color"      : "#dadada" } ] },
+                    { "featureType" : "road.highway"                , "elementType" : "labels.text.fill"   , "stylers" : [ { "color"      : "#616161" } ] },
+                    { "featureType" : "road.local"                  , "elementType" : "labels"             , "stylers" : [ { "visibility" : "off"     } ] },
+                    { "featureType" : "road.local"                  , "elementType" : "labels.text.fill"   , "stylers" : [ { "color"      : "#9e9e9e" } ] },
+                    { "featureType" : "transit"                                                            , "stylers" : [ { "visibility" : "off"     } ] },
+                    { "featureType" : "transit.line"                , "elementType" : "geometry"           , "stylers" : [ { "color"      : "#e5e5e5" } ] },
+                    { "featureType" : "transit.station"             , "elementType" : "geometry"           , "stylers" : [ { "color"      : "#eeeeee" } ] },
+                    { "featureType" : "water"                                                              , "stylers" : [ { "color"      : "#ffeb3b" } , { "saturation" : 65 } ] },
+                    { "featureType" : "water"                       , "elementType" : "geometry"           , "stylers" : [ { "color"      : "#c9c9c9" } ] },
+                    { "featureType" : "water"                       , "elementType" : "labels.text.fill"   , "stylers" : [ { "color"      : "#9e9e9e" } ] }
+                ]
+            });
+
+            var marker = new google.maps.Marker({
+                position  : { lat: 59.437, lng: 24.7536 },
+                map       : map,
+                animation : google.maps.Animation.DROP
+            });
+
+            var marker = new google.maps.Marker({
+                position  : { lat: 59.448, lng: 24.7536 },
+                map       : map,
+                animation : google.maps.Animation.DROP
+            });
+        }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8PItH7dJVJOnByptxnYU9bLLsxKOo7s0&callback=initMap"></script>
+        <script type="text/javascript">
+        var _gauges = _gauges || [];
+        (function() {
+            var t   = document.createElement('script');
+            t.type  = 'text/javascript';
+            t.async = true;
+            t.id    = 'gauges-tracker';
+            t.setAttribute('data-site-id', '59554ec24b9eb7070b00c5dd');
+            t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+            t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(t, s);
+        })();
+        </script>
+    </body>
+</html>
