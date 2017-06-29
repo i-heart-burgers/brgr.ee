@@ -10,6 +10,8 @@
         <meta name="description" content="I (heart) Burgers ... I really do ...">
         <meta name="keywords" content="burgers, fastfood, map, burgermap, i heart burgers, burgers in Tallinn">
 
+        <script src="fontawesome-markers.min.js"></script>
+
         <style>
             @import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
             #map {
@@ -28,15 +30,27 @@
                 Position: absolute;
                 z-index: 9999;
             }
-            h1 {
-                font-size: 3em;
-                top : 1em;
-                left : 2em;
+            @media screen and (min-width: 481px) {
+                h1 {
+                    font-size: 3em;
+                    top : 1em;
+                    left : 2em;
+                }
+                h3 {
+                    bottom : 1em;
+                    left : 3em;
+                    font-weight: bold;
+                }
             }
-            h3 {
-                bottom : 1em;
-                left : 3em;
-                font-weight: bold;
+            @media screen and (max-width: 480px) {
+                h1 {
+                    font-size: 2em;
+                    top : 0em;
+                    left : 1em;
+                }
+                h3 {
+                    display: none;
+                }
             }
         </style>
     </head>
@@ -102,6 +116,15 @@
                 markers[i] = new google.maps.Marker({
                     position  : burgers[i][1],
                     map       : map,
+                    icon: {
+                        path: fontawesome.markers.CUTLERY,
+                        scale: 0.4,
+                        strokeWeight: 0.2,
+                        strokeColor: 'black',
+                        strokeOpacity: 1,
+                        fillColor: '#f00',
+                        fillOpacity: 0.7,
+                    },
                     animation : google.maps.Animation.DROP,
                     infoWindowIndex : i
                 });
