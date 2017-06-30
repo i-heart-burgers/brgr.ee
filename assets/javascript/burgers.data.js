@@ -1,5 +1,6 @@
 var burgers = [
-    // Tallinn, Estonia
+
+    /* Tallinn, Estonia */
     [ "Boksipeatus"                   , { lat : 59.414279 , lng : 24.757071 } ],
     [ "Uulits Kadaka tn."             , { lat : 59.411974 , lng : 24.668107 } ],
     [ "Uulits Soo tn."                , { lat : 59.444944 , lng : 24.742193 } ],
@@ -12,6 +13,12 @@ var burgers = [
     [ "Mack Bar-B-Que"                , { lat : 59.429544 , lng : 24.773965 } ],
     [ "Mack Bar-B-Que Mustamäe"       , { lat : 59.408457 , lng : 24.689267 } ],
     [ "BabyBack Ribs & BBQ Kristiine" , { lat : 59.425985 , lng : 24.725439 } ],
+    [ "BabyBack Ribs & BBQ Pääsküla"  , { lat : 59.369084 , lng : 24.63706  } ],
+    [ "Vesivärava Grill"              , { lat : 59.434155 , lng : 24.780721 } ],
+    [ "Bueno Gourmet"                 , { lat : 59.438995 , lng : 24.72834  } ],
+
+    /* Harjumaa, Estonia */
     [ "BabyBack Ribs & BBQ Viimsi"    , { lat : 59.504637 , lng : 24.827317 } ],
-    [ "BabyBack Ribs & BBQ Pääsküla"  , { lat : 59.369084 , lng : 24.63706  } ]
+    [ "Taps"                          , { lat : 59.42935  , lng : 24.551625 } ]
+
 ];
