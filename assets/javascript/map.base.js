@@ -18,7 +18,7 @@ function initMap() {
             map       : map,
             icon: {
                 path: fontawesome.markers.CUTLERY,
-                scale: 0.4,
+                scale: 0.3,
                 strokeWeight: 0.2,
                 strokeColor: 'black',
                 strokeOpacity: 1,
