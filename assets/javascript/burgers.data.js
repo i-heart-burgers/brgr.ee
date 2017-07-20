@@ -18,6 +18,12 @@ var burgers = [
     [ "Vesivärava Grill"              , { lat : 59.434155 , lng : 24.780721 } ],
     [ "Bueno Gourmet"                 , { lat : 59.438995 , lng : 24.72834  } ],
     [ "Lantsh"                        , { lat : 59.451303 , lng : 24.717169 } ],
+    [ "Räägupesa"                     , { lat : 59.414963 , lng : 24.719256 } ],
+    [ "Staap"                         , { lat : 59.417494 , lng : 24.720439 } ],
+    [ "Dereku Burger"                 , { lat : 59.435243 , lng : 24.769962 } ],
+    [ "Päästke Willy"                 , { lat : 59.440539 , lng : 24.730536 } ],
+    [ "Veska Grill Kiosk"             , { lat : 59.427551 , lng : 24.670239 } ],
+    [ "Veska Grill Baar"              , { lat : 59.42779  , lng : 24.628156 } ],
 
     /* Harjumaa, Estonia */
     [ "BabyBack Ribs & BBQ Viimsi"    , { lat : 59.504637 , lng : 24.827317 } ],
