@@ -16,7 +16,7 @@ function initMap() {
 				lng: position.coords.longitude
 			};
 			map.setCenter(pos);
-			map.setZoom(16);
+			map.setZoom(15);
 		}, function() {
 			handleLocationError(true, '', map.getCenter());
 		});
