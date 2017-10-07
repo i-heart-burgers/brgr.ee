@@ -1,5 +1,6 @@
 var markers = [];
 var infowindows = [];
+fastfood = burgers;
 function initMap() {
 	var map = new google.maps.Map(document.getElementById('map'), {
 		center: { lat: 59.43914046, lng: 24.75219727 },
@@ -30,12 +31,12 @@ function initMap() {
 		handleLocationError(false, '', map.getCenter());
 	}
 
-	for (var i = 0; i < burgers.length; i++) {
+	for (var i = 1; i < fastfood.length; i++) {
 		infowindows[i] = new google.maps.InfoWindow({
-			content : '<b>' + burgers[i][0] + '</b><br>' + burgers[i][3] + '<br><br>' + burgers[i][4] + ( ( burgers[i][2] != "" ) ? '<br><br><a href="' + burgers[i][2] + '" target="_blank">' + burgers[i][2] + '</a>' : "" )
+			content : '<b>' + fastfood[i][0] + '</b><br>' + fastfood[i][3] + '<br><br>' + fastfood[i][4] + ( ( fastfood[i][2] != "" ) ? '<br><br><a href="' + fastfood[i][2] + '" target="_blank">' + fastfood[i][2] + '</a>' : "" )
 		});
 		markers[i] = new google.maps.Marker({
-			position  : burgers[i][1],
+			position  : fastfood[i][1],
 			map       : map,
 			icon: {
 				path: fontawesome.markers.CUTLERY,
@@ -43,7 +44,7 @@ function initMap() {
 				strokeWeight: 0.2,
 				strokeColor: 'black',
 				strokeOpacity: 1,
-				fillColor: '#f00',
+				fillColor: fastfood[0][1],
 				fillOpacity: 0.7,
 			},
 			animation : google.maps.Animation.DROP,
