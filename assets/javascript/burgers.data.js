@@ -38,7 +38,7 @@ var burgers = [
     [ "Burger Kitchen"                  , { lat : 59.506379 , lng : 24.830898 } , "http://burgerkitchen.ee"      , "Randvere tee 6, Viimsi" , "Mon-Sun 12:00-21:00" ],
     /* Tartumaa, Estonia */
     [ "BabyBack Ribs & BBQ Tasku"       , { lat : 58.377673 , lng : 26.730503 } , "https://www.babyback.ee"      , "Turu 2, Tartu" , "Sun-Thu 11:30-21:00<br>Fri-Sat 11:30-22:00" ],
-    [ "Sheriff Saloon"                  , { lat : 58.381649 , lng : 26.722241 } , "http://sheriffsaloon.com"     , "Gildi 7, Tartu" , "Mon-Fri 11:00-23:00<br>Sat-Sun 12:00-23:00" ]
+    [ "Sheriff Saloon"                  , { lat : 58.381649 , lng : 26.722241 } , "http://sheriffsaloon.com"     , "Gildi 7, Tartu" , "Mon-Fri 11:00-23:00<br>Sat-Sun 12:00-23:00" ],
     /* Lääne-Virumaa, Estonia */
     [ "BabyBack Ribs & BBQ Rakvere"     , { lat : 59.364114 , lng : 26.339537 } , "https://www.babyback.ee"      , "Haljala tee 4, Rakvere" , "Mon-Sun 11:00-20:00" ],
     /* Pärnumaa, Estonia */
