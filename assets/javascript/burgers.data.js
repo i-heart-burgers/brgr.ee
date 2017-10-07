@@ -1,6 +1,5 @@
 var burgers = [
-    [ "Burgers" , '#f00' ],         /* List settings: Name and Colour */
-
+    [ "Burgers" , '#f00' ],             /* List settings: Name and Colour */
     /* Tallinn, Estonia */
     [ "Boksipeatus"                     , { lat : 59.414279 , lng : 24.757071 } , "http://www.boksipeatus.ee"    ,  "Veerenni 54, Tallinn" , "Mon-Fri 09:00-20:00<br>Sat 10:00-19:00<br>Sun 11:00-18:00" ],
     [ "Uulits Kadaka tn."               , { lat : 59.411974 , lng : 24.668107 } , "https://www.uulits.ee"        , "Kadaka tee 135A, Tallinn" , "Sun-Thu 12:00-21:00<br>Fri-Sat 12:00-22:00" ],
@@ -31,21 +30,17 @@ var burgers = [
     [ "American Burger"                 , { lat : 59.394692 , lng : 24.644733 } , "http://www.americanburger.ee" , "Maepealse 30, Tallinn" , "Mon-Fri 10:00-22:00<br>Sat-Sun 10:00 - 23:00" ],
     [ "Poseidon Burgers"                , { lat : 59.451303 , lng : 24.717169 } , ""                             , "Erika 14, Tallinn" , "Mon-Sun 11:00-21:00" ],
     [ "Burgerito"                       , { lat : 59.431792 , lng : 24.745941 } , ""                             , "Pärnu mnt 19, Tallinn" , "Mon-Sat 09:00-01:00" ],
-    [ "R18"                             , { lat : 59.436951 , lng : 24.746013 } , "http://www.r18.ee"            , "Raekoja plats 18, Tallinn", "Mon-Thu 12:00-20:00<br>Fri-Sat 12:00-21:00<br>Sun 12:00-20:00" ],
-
+    [ "R18"                             , { lat : 59.436951 , lng : 24.746013 } , "http://www.r18.ee"            , "Raekoja plats 18, Tallinn" , "Mon-Thu 12:00-20:00<br>Fri-Sat 12:00-21:00<br>Sun 12:00-20:00" ],
     /* Harjumaa, Estonia */
     [ "BabyBack Ribs & BBQ Viimsi"      , { lat : 59.504637 , lng : 24.827317 } , "http://www.babyback.ee"       , "Sõpruse tee 15, Viimsi" , "Sun-Thu 11:00-21:00<br>Fri-Sat 11:00-22:00" ],
     [ "BabyBack Ribs & BBQ Tabasalu"    , { lat : 59.427623 , lng : 24.547527 } , "http://www.babyback.ee"       , "Ranna tee 1, Tabasalu" , "Sun-Thu 12:00-21:30<br>Fri-Sat 12:00-22:30" ],
     [ "Taps"                            , { lat : 59.42935  , lng : 24.551625 } , ""                             , "Klooga Maantee 7a, Tabasalu" , "Sun-Thu 12:00-20:00<br>Fri-Sat 12:00-21:00" ],
     [ "Burger Kitchen"                  , { lat : 59.506379 , lng : 24.830898 } , "http://burgerkitchen.ee"      , "Randvere tee 6, Viimsi" , "Mon-Sun 12:00-21:00" ],
-
     /* Tartumaa, Estonia */
     [ "BabyBack Ribs & BBQ Tasku"       , { lat : 58.377673 , lng : 26.730503 } , "https://www.babyback.ee"      , "Turu 2, Tartu" , "Sun-Thu 11:30-21:00<br>Fri-Sat 11:30-22:00" ],
     [ "Sheriff Saloon"                  , { lat : 58.381649 , lng : 26.722241 } , "http://sheriffsaloon.com"     , "Gildi 7, Tartu" , "Mon-Fri 11:00-23:00<br>Sat-Sun 12:00-23:00" ]
-
     /* Lääne-Virumaa, Estonia */
     [ "BabyBack Ribs & BBQ Rakvere"     , { lat : 59.364114 , lng : 26.339537 } , "https://www.babyback.ee"      , "Haljala tee 4, Rakvere" , "Mon-Sun 11:00-20:00" ],
-
     /* Pärnumaa, Estonia */
     [ "BabyBack Ribs & BBQ Kaubamajaka" , { lat : 58.370093 , lng : 24.550648 } , "https://www.babyback.ee"      , "Papiniidu 8/10, Pärnu" , "Mon-Sun 10:00-20:00" ],
     [ "Mack Bar-B-Que Beachclub"        , { lat : 58.377239 , lng : 24.497254 } , "https://www.mackbbq.ee"       , "Supeluse 23A, Pärnu" , "Mon-Sun 12:00-00:00" ],
