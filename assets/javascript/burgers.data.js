@@ -1,7 +1,7 @@
 var burgers = [
-    [ "Burgers" , '#f00' ],             /* List settings: Name and Colour */
+    [ "Burgers" , "#f00" ],             /* List settings: Name and Colour */
     /* Tallinn, Estonia */
-    [ "Boksipeatus"                     , { lat : 59.414279 , lng : 24.757071 } , "http://www.boksipeatus.ee"    ,  "Veerenni 54, Tallinn" , "Mon-Fri 09:00-20:00<br>Sat 10:00-19:00<br>Sun 11:00-18:00" ],
+    [ "Boksipeatus"                     , { lat : 59.414279 , lng : 24.757071 } , "http://www.boksipeatus.ee"    , "Veerenni 54, Tallinn" , "Mon-Fri 09:00-20:00<br>Sat 10:00-19:00<br>Sun 11:00-18:00" ],
     [ "Uulits Kadaka tn."               , { lat : 59.411974 , lng : 24.668107 } , "https://www.uulits.ee"        , "Kadaka tee 135A, Tallinn" , "Sun-Thu 12:00-21:00<br>Fri-Sat 12:00-22:00" ],
     [ "Uulits Soo tn."                  , { lat : 59.444944 , lng : 24.742193 } , "https://www.uulits.ee"        , "Soo tn 1B/6, Tallinn" , "Sun-Thu 12:00-22:00<br>Fri-Sat 12:00-23:00" ],
     [ "Balta Uulits"                    , { lat : 59.441012 , lng : 24.73561  } , "https://www.uulits.ee"        , "Kopli 1, Tallinn" , "Mon-Sun 10:00-20:00" ],
@@ -45,5 +45,4 @@ var burgers = [
     [ "BabyBack Ribs & BBQ Kaubamajaka" , { lat : 58.370093 , lng : 24.550648 } , "https://www.babyback.ee"      , "Papiniidu 8/10, Pärnu" , "Mon-Sun 10:00-20:00" ],
     [ "Mack Bar-B-Que Beachclub"        , { lat : 58.377239 , lng : 24.497254 } , "https://www.mackbbq.ee"       , "Supeluse 23A, Pärnu" , "Mon-Sun 12:00-00:00" ],
     [ "Pärnu Diner"                     , { lat : 58.363592 , lng : 24.560952 } , "http://www.dinerfood.ee"      , "Riia mnt 110a, Pärnu" , "Mon-Sun 07:00-22:00" ]
-
 ];
