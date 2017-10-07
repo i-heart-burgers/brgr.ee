@@ -32,7 +32,7 @@ function initMap() {
 
 	for (var i = 0; i < burgers.length; i++) {
 		infowindows[i] = new google.maps.InfoWindow({
-			content : '<b>' + burgers[i][0] + '</b><br>' + burgers[i][3] + '<br><br>' + burgers[i][4] + '<br><br><a href="' + burgers[i][2] + '">' + burgers[i][2] + '</a>'
+			content : '<b>' + burgers[i][0] + '</b><br>' + burgers[i][3] + '<br><br>' + burgers[i][4] + ( ( burgers[i][2] != "" ) ? '<br><br><a href="' + burgers[i][2] + '" target="_blank">' + burgers[i][2] + '</a>' : "" )
 		});
 		markers[i] = new google.maps.Marker({
 			position  : burgers[i][1],
