@@ -37,6 +37,7 @@ var burgers = [
     [ "Taps"                            , { lat : 59.42935  , lng : 24.551625 } , ""                             , "Klooga Maantee 7a, Tabasalu" , "Sun-Thu 12:00-20:00<br>Fri-Sat 12:00-21:00" ],
     [ "Burger Kitchen"                  , { lat : 59.506379 , lng : 24.830898 } , "http://burgerkitchen.ee"      , "Randvere tee 6, Viimsi" , "Mon-Sun 12:00-21:00" ],
     [ "Caiselle Burks"                  , { lat : 59.182898 , lng : 25.114532 } , ""                             , "Tallinn–Tartu–Võru–Luhamaa maantee, Harjumaa" , "Mon-Sun 07:00-22:00" ],
+    [ "Sun Grill"                       , { lat : 59.358186 , lng : 24.893203 } , "https://www.facebook.com/pg/Sun-Grill-255544221174474/" , "Uus-Ringi tee, Jüri, Harjumaa" , "Mon-Fri 09:00-20:00<br>Sat 11:00-20:00<br>Sun 11:00-18:00" ],
     /* Tartumaa, Estonia */
     [ "BabyBack Ribs & BBQ Tasku"       , { lat : 58.377673 , lng : 26.730503 } , "https://www.babyback.ee"      , "Turu 2, Tartu" , "Sun-Thu 11:30-21:00<br>Fri-Sat 11:30-22:00" ],
     [ "Sheriff Saloon"                  , { lat : 58.381649 , lng : 26.722241 } , "http://sheriffsaloon.com"     , "Gildi 7, Tartu" , "Mon-Fri 11:00-23:00<br>Sat-Sun 12:00-23:00" ],
